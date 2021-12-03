@@ -11,8 +11,6 @@
     <button-done-sorting 
       v-if="$store.state.sorting"
     />
-
-    <test />
   </div>
 </template>
 
@@ -31,8 +29,7 @@ import ButtonDoneSorting from '@/components/Todo/ButtonDoneSorting.vue'
       FieldAddTask,
       ListTasks,
       NoTask,
-      ButtonDoneSorting,
-      'test': require('@/components/Todo/Test.vue').default
+      ButtonDoneSorting
       // 'list-tasks': require('@/components/Todo/ListTasks.vue').default  you can do so 
     }
   }
