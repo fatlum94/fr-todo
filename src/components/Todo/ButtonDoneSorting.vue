@@ -1,6 +1,6 @@
 <template>
   <v-btn
-    @click="$store.commit(toggleSorting)"
+    @click="$store.commit('toggleSorting')"
     color="primary"
     class="button-done-sorting"
   >
